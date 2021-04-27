@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,25 +11,96 @@
 <body>
     <header>
         <section id="header">
-            <img src="" alt="" class="header__logo">
+            <article class="header__logo">
+                <img src="./assets/img/logo_farmacia.svg" alt="" class="logo">
+            </article>
             <nav class="header__menu">
-                <a href="" class="header__menu__links"></a>
-                <a href="" class="header__menu__links"></a>
-                <a href="" class="header__menu__links"></a>
-                <a href="" class="header__menu__links"></a>
+                <a href="#" class="header__menu__links">incio</a>
+                <a href="#" class="header__menu__links">productos</a>
+                <a href="#" class="header__menu__links">contactar</a>
             </nav>
+            <section class="header__banner">
+                <picture>
+                    <source srcset="./assets/img/banner1.jpeg x1, /assets/img/banner12x.jpeg x2">
+                    <img src="./assets/img/banner1.jpeg" alt="mortero con hojas y aceite">
+                </picture>
+                <picture>
+                    <source srcset="./assets/img/banner1.jpeg x1, /assets/img/banner12x.jpeg x2">
+                    <img src="./assets/img/banner2.jpeg" alt="mortero con hojas y aceite">
+                </picture>
+                <picture>
+                    <source srcset="./assets/img/banner3.jpeg x1, /assets/img/banner33x.jpeg x2">
+                    <img src="./assets/img/banner3.jpeg" alt="machacando hojas en el mortero">
+                </picture>
+            </section>
         </section>
     </header>
+    <main>
+        <section id="main">
+            <article class="main__productos">
+                <h1 class="main__productos__titulo">
+                    PRODUCTOS, que puedes encontrar en nuestra farmacia
+                </h1>
+                <button class="main__productos__btn">más productos</button>
+            </article>
+            <article class="main__galeria">
+                <picture>
+                    <figure>
+                        <source src="" type="">
+                        <img src="" alt="">
+                        <figcaption>
+                            <h3>producto 01</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto assumenda sed nam.</p>
+                        </figcaption>
+                    </figure>
+                </picture>
+                <picture>
+                    <figure>
+                        <source src="" type="">
+                        <img src="" alt="">
+                        <figcaption>
+                            <h3>producto 01</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam voluptatibus asperiores libero?</p>
+                        </figcaption>
+                    </figure>
+                </picture>
+                <picture>
+                    <figure>
+                        <source src="" type="">
+                        <img src="" alt="">
+                        <figcaption>
+                            <h3>producto 01</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum placeat fugiat ipsum!</p>
+                        </figcaption>
+                    </figure>
+                </picture>
+                <picture>
+                    <figure>
+                        <source src="" type="">
+                        <figcaption>
+                            <h3>producto 01</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione itaque delectus!</p>
+                        </figcaption>
+                    </figure>
+                </picture>
+            </article>
+            <article class="main__localizacion">
+                <h2 class="main__localizacion__titulo">¿Donde nos puedes encontrar?</h2>
+            </article>
+        </section>
+    </main>
     <footer>
         <section id="footer">
-            <section class="footer__izquierda">
-                <ul class="footer__izquierda__redes-sociales">
-                    <li></li>
+            <section class="footer__redes-sociales">
+                <ul class="footer__redes-sociales__iconos">
+                    <li><a href="#" class="icono__instagram"><img src="./assets/iconos/instagram.svg" alt=""></a></li>
+                    <li><a href="#" class="icono__instagram"><img src="./assets/iconos/twitter.svg" alt=""></a></li>
+                    <li><a href="#" class="icono__instagram"><img src="./assets/iconos/facebook.svg" alt=""></a></li>
                 </ul>
             </section>
-            <section class="footer derecha">
+            <section class="footer__copyright">
                 <h6 class="copyright">
-
+                    &copy; copyright 2021 - Farmacia Paco
                 </h6>
             </section>
         </section>

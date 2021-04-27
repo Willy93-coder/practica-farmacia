@@ -1,0 +1,109 @@
+/* @GLOBAL */
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #7DBB02;
+    text-transform: capitalize;
+}
+
+header, main, footer{
+    display: flex;
+    justify-content: center;
+}
+
+#header, #main, #footer{
+    flex-basis: 1400px;
+    display: flex;
+    padding: 1rem;
+}
+
+ul{
+    list-style: none;
+}
+
+/* **************************** */
+
+/* @HEADER */
+
+#header{
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__menu{
+    width: 40vw;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    order: 1;
+}
+
+.header__menu__links{
+    font-size: 1.125rem;
+}
+
+.header__logo{
+    order: 2;
+}
+
+.header__banner{
+    order: 3;
+}
+
+/* @MAIN */
+
+#main{
+    color: #7DBB02;
+}
+
+.main__productos__titulo{
+    font-weight: normal;
+}
+
+.main__localizacion__titulo{
+    font-weight: normal;
+}
+
+
+/* **************************** */
+
+/* @FOOTER */
+footer{
+    background-color: #7DBB02;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__redes-sociales{
+    width: 25vw;
+}
+
+.footer__redes-sociales__iconos{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    color: white;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+/* **************************** */
